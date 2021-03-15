@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lsh-mcp-filebeat-reload-config
+  namespace: {{ .Release.Namespace }}
+data:
+  modules.yml: |
+#    - type: log
+#      enabled: false
+#      paths:
+#      - /var/log/LStack/disable
