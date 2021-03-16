@@ -27,11 +27,8 @@ secretMounts: []
 #    secretName: kibana-keystore
 #    path: /usr/share/kibana/data/kibana.keystore
 #    subPath: kibana.keystore # optional
-
-image: "registry.cn-hangzhou.aliyuncs.com/launcher/kibana"
-imageTag: "7.5.0"
-#image: "docker.elastic.co/kibana/kibana"
-#imageTag: "6.4.0"
+image: "docker.elastic.co/kibana/kibana"
+imageTag: "6.4.0"
 imagePullPolicy: "Always"
 
 # additionals labels
