@@ -56,10 +56,9 @@ extraEnvs: []
 # A list of secrets and their paths to mount inside the pod
 secretMounts: []
 
-image: "registry.cn-hangzhou.aliyuncs.com/launcher/logstash"
-imageTag: "7.5.0"
-#image: docker.elastic.co/logstash/logstash
-#imageTag: 6.4.0
+
+image: docker.elastic.co/logstash/logstash
+imageTag: 6.4.0
 imagePullPolicy: "Always"
 imagePullSecrets: []
 
